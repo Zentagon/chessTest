@@ -13,6 +13,7 @@ namespace _2d_array
         public string[,] board = new string[x, y];
         public void PrintBoard()
         {
+            Console.WriteLine("      Black Side   ");
             Console.WriteLine("[{0}] [{1}] [{2}] [{3}] [{4}] [{5}] [{6}] [{7}]", board[0, 0], board[0, 1], board[0, 2],
                 board[0, 3], board[0, 4], board[0, 5], board[0, 6], board[0, 7]);
             Console.WriteLine("[{0}] [{1}] [{2}] [{3}] [{4}] [{5}] [{6}] [{7}]", board[1, 0], board[1, 1], board[1, 2],
@@ -29,6 +30,7 @@ namespace _2d_array
                 board[6, 3], board[6, 4], board[6, 5], board[6, 6], board[6, 7]);
             Console.WriteLine("[{0}] [{1}] [{2}] [{3}] [{4}] [{5}] [{6}] [{7}]", board[7, 0], board[7, 1], board[7, 2],
                 board[7, 3], board[7, 4], board[7, 5], board[7, 6], board[7, 7]);
+            Console.WriteLine("      White side    ");
         }
     }
 }
