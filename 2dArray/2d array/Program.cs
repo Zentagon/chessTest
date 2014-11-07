@@ -17,10 +17,10 @@ namespace _2d_array
         //private static int x = 8;
         //private static int y = 8;
         //private string[,] defaultSlot = new string[x, y];
-        public void DefaultSetup(string[,] input)
+        public string DefaultSetup(string[,] input)
         {
-            int x = 0;
-            int y = 0;
+            int x = 8;
+            int y = 8;
             string[,] board = new string[x, y];
             Peasant blackBonde1 = new Peasant();
             Peasant blackBonde2 = new Peasant();
@@ -38,7 +38,15 @@ namespace _2d_array
             board[1, 5] = blackBonde6.Name();
             board[1, 6] = blackBonde7.Name();
             board[1, 7] = blackBonde8.Name();
-            input = board;
+            input[1, 0] = board[1, 0];
+            input[1, 1] = board[1, 1];
+            input[1, 2] = board[1, 2];
+            input[1, 3] = board[1, 3];
+            input[1, 4] = board[1, 4];
+            input[1, 5] = board[1, 5];
+            input[1, 6] = board[1, 6];
+            input[1, 7] = board[1, 7];
+            return input[7,7];
         }
     }
 
