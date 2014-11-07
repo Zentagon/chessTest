@@ -8,3 +8,4 @@ C:\Users\TheFutureOperator\Desktop\chessTest\2dArray\2d array\obj\Debug\2d array
 C:\Users\TheFutureOperator\Desktop\chessTest\2dArray\2d array\obj\Debug\2d array.pdb
 C:\Users\TheFutureOperator\Desktop\chessTest\2dArray\2d array\bin\Debug\2d array.exe
 C:\Users\TheFutureOperator\Desktop\chessTest\2dArray\2d array\bin\Debug\2d array.pdb
+C:\Users\TheFutureOperator\Desktop\chessTest\2dArray\2d array\obj\Debug\2d array.csprojResolveAssemblyReference.cache

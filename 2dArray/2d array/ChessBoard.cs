@@ -11,7 +11,8 @@ namespace _2d_array
         public static int x = 8;
         public static int y = 8;
         public string[,] board = new string[x, y];
-        public void PrintBoard()
+
+    public void PrintBoard()
         {
             Console.WriteLine("      Black Side   ");
             Console.WriteLine("[{0}] [{1}] [{2}] [{3}] [{4}] [{5}] [{6}] [{7}]", board[0, 0], board[0, 1], board[0, 2],
