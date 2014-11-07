@@ -29,24 +29,4 @@ namespace _2d_array
             }
         }
     }
-
-    public class Peasant
-    {
-        public string Name()
-        {
-            string name = "P";
-            return Color() + name;
-        }
-        public string Color()
-        {
-            string color = "B";
-            return color;
-        }
-        public void Move()
-        {
-            int x = 0;
-            int y = 0;
-            string[,] hello = new string[x, y];
-        }
-    }
 }

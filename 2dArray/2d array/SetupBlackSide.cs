@@ -22,6 +22,22 @@ namespace _2d_array
             Peasant blackBonde6 = new Peasant();
             Peasant blackBonde7 = new Peasant();
             Peasant blackBonde8 = new Peasant();
+            King king = new King();
+            Queen queen = new Queen();
+            Bishop bishop = new Bishop();
+            Bishop bishop2 = new Bishop();
+            Tower tower = new Tower();
+            Tower tower2 = new Tower();
+            Crusader crusader = new Crusader();
+            Crusader crusader2 = new Crusader();
+            board[0, 5] = bishop2.Name();
+            board[0, 2] = bishop.Name();
+            board[0, 7] = tower2.Name();
+            board[0, 0] = tower.Name();
+            board[0, 3] = queen.Name();
+            board[0, 4] = king.Name();
+            board[0, 6] = crusader2.Name();
+            board[0, 1] = crusader.Name();
             board[1, 0] = blackBonde1.Name();
             board[1, 1] = blackBonde2.Name();
             board[1, 2] = blackBonde3.Name();
@@ -38,6 +54,14 @@ namespace _2d_array
             input[1, 5] = board[1, 5];
             input[1, 6] = board[1, 6];
             input[1, 7] = board[1, 7];
+            input[0, 5] = board[0, 5];
+            input[0, 2] = board[0, 2];
+            input[0, 7] = board[0, 7];
+            input[0, 0] = board[0, 0];
+            input[0, 3] = board[0, 3];
+            input[0, 4] = board[0, 4];
+            input[0, 6] = board[0, 6];
+            input[0, 1] = board[0, 1];
             return input[7, 7];
           }
      }
