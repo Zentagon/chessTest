@@ -18,7 +18,8 @@ namespace _2d_array
         {
             ChessBoard chessBoard = new ChessBoard();
             SetupBlackSide blackSide = new SetupBlackSide();
-
+            SetupWhiteSide whiteSide = new SetupWhiteSide();
+            whiteSide.DefaultSetupW(chessBoard.board);
             blackSide.DefaultSetup(chessBoard.board);
             while (true)
             {

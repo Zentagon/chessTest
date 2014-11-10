@@ -14,3 +14,9 @@ C:\Users\Christopher\Documents\GitHub\chessTest\2dArray\2d array\obj\Debug\2d ar
 C:\Users\Christopher\Documents\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.exe
 C:\Users\Christopher\Documents\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.pdb
 C:\Users\Christopher\Documents\GitHub\chessTest\2dArray\2d array\obj\Debug\2d array.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.exe.config
+C:\Users\Alex\Documents\GitHub\chessTest\2dArray\2d array\obj\Debug\2d array.exe
+C:\Users\Alex\Documents\GitHub\chessTest\2dArray\2d array\obj\Debug\2d array.pdb
+C:\Users\Alex\Documents\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.exe
+C:\Users\Alex\Documents\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.pdb
+C:\Users\Alex\Documents\GitHub\chessTest\2dArray\2d array\obj\Debug\2d array.csprojResolveAssemblyReference.cache
