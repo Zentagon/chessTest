@@ -24,7 +24,7 @@ namespace _2d_array
             while (true)
             {
                 chessBoard.PrintBoard();
-                Console.WriteLine("-----------------------");
+                Console.WriteLine("---------------------------------------");
                 string choice = Console.ReadLine();
                 Console.Clear();
             }
