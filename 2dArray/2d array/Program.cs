@@ -24,10 +24,12 @@ namespace _2d_array
             while (true)
             {
                 chessBoard.PrintBoard();
-                Console.WriteLine("---------------------------------------");
+                Console.WriteLine("8==================================D");
+                Console.WriteLine("Vilken pjäs vill du flytta?");
                 string choice = Console.ReadLine();
                 Console.Clear();
             }
+        
         }
     }
 }
