@@ -1,4 +1,0 @@
-chessTest
-=========
-
-Chess project information
