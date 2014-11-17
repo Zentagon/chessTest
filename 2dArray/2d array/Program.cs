@@ -19,7 +19,7 @@ namespace _2d_array
 
 
             // DETTA ÄR MENYN
-        Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Geeks at EC");
+        Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
         Console.WriteLine("   ----------------------------------");
         Console.WriteLine("   What do you want to do?");
         Console.WriteLine("   P.Play a game");
