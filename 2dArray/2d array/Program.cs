@@ -63,6 +63,7 @@ namespace _2d_array
                     Console.WriteLine(" first is for color and second is for character.");
                     Console.WriteLine("");
                     Console.WriteLine(" Every unit on the chessboard can move in a certain pattern:");
+                    Console.WriteLine("");
                     Console.WriteLine(" PAWNS aka P");
                     Console.WriteLine(" Move: 2 or 1 squares foward at first move, afterwards only 1 foward.");
                     Console.WriteLine(" Attack: can only attack an enemy if it stands snett framför.");
@@ -77,9 +78,10 @@ namespace _2d_array
                     Console.WriteLine("");
                     Console.WriteLine(" BISHOP aka B");
                     Console.WriteLine("Move: no restrictions in distance for each move, but is limited to diagonal movement. ");
-
+                    Console.WriteLine("");
                     Console.WriteLine(" QUEEN aka Q");
                     Console.WriteLine("Move: Horizontal, Vertical and diagonal untill it reaches a friedly or enemy.");
+                    Console.WriteLine("");
                     Console.WriteLine("UNIQUE: if a pawn reaches the other players end, then a new QUEEN will spawn.");
                     Console.WriteLine(" KING aka K");
                     Console.WriteLine("");
