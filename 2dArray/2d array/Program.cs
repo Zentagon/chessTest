@@ -71,14 +71,16 @@ var input = Console.ReadKey();
                     Console.WriteLine(" Move: Can Move all the way in both horizonal and vertical. Can be blocked");
                     Console.WriteLine(" Attack: Move all the way untill an is reached enemy.");
                     Console.WriteLine("");
-                    Console.WriteLine(" HORSE aka H");
+                    Console.WriteLine(" KNIGHT aka K");
                     Console.WriteLine("Move: 2 Steps to a direction and then one square to the Right/Left");
                     Console.WriteLine("Attack: Gotta land on the enemy to have it killed");
                     Console.WriteLine("");
-                    Console.WriteLine(" CRUSADER aka C");
-                    Console.WriteLine("");
+                    Console.WriteLine(" BISHOP aka B");
+                    Console.WriteLine("Move: no restrictions in distance for each move, but is limited to diagonal movement. ");
+
                     Console.WriteLine(" QUEEN aka Q");
-                    Console.WriteLine("");
+                    Console.WriteLine("Move: Horizontal, Vertical and diagonal untill it reaches a friedly or enemy.");
+                    Console.WriteLine("UNIQUE: if a pawn reaches the other players end, then a new QUEEN will spawn.");
                     Console.WriteLine(" KING aka K");
                     Console.WriteLine("");
 
