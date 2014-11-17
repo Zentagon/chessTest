@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2d_array
 {
-    class GameEngin
+    class GameEngine
     {
     }
 }
