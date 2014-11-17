@@ -17,6 +17,24 @@ namespace _2d_array
         private static void Main(string[] args)
         {
 
+            Player P1 = new Player("Black");
+            Player P2 = new Player("White");
+
+            while (true)
+            {
+                //Vits tur
+                var WhitePjäser = P1.GetPieces();
+                var BlackPjäser = P2.GetPieces();
+
+                GameEngine game = new GameEngine();
+                var move = game.CalculateMove(WhitePjäser, BlackPjäser);
+
+                MoveEngine mover = new MoveEngine();
+                mover.Move(move, P1, P2);
+
+                PrintEngine print = new PrintEngine();
+                print.PrintBoard(P1, P2);
+            }
 
             // DETTA ÄR MENYN
             Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
