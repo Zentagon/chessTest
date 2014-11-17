@@ -91,7 +91,7 @@ var input = Console.ReadKey();
                         case ConsoleKey.Y:
                              Console.WriteLine("");
                              Console.WriteLine("Great, let's game!");
-                             
+                             Console.Clear();
                             break;
                         case ConsoleKey.N:
                             Console.Clear();
@@ -105,24 +105,24 @@ var input = Console.ReadKey();
 
 
             // SPELET STARTAR 
-      //  ChessBoard chessBoard = new ChessBoard();
-      //  SetupBlackSide blackside = new SetupBlackSide();
-      //  SetupWhiteSide whiteSide = new SetupWhiteSide();
-      //  whiteSide.DefaultSetupW(chessBoard.board);
-      //  blackside.DefaultSetup(chessBoard.board);
-      //
-      //  while (true)
-      //  {
-      //      chessBoard.PrintBoard();
-      //      Console.WriteLine("   ----------------------------------------");
-      //      Console.WriteLine("    Which chesspiece do you want to move?");
-      //      var whatmove = Console.ReadLine();
-      //      Console.WriteLine("    Where do you want to move it? ");
-      //      var moveto = Console.ReadKey();
-      //
-      //      string choice = Console.ReadLine();
-      //      Console.Clear();
-      //  }
+            ChessBoard chessBoard = new ChessBoard();
+            SetupBlackSide blackside = new SetupBlackSide();
+            SetupWhiteSide whiteSide = new SetupWhiteSide();
+            whiteSide.DefaultSetupW(chessBoard.board);
+            blackside.DefaultSetup(chessBoard.board);
+
+            while (true)
+            {
+                chessBoard.PrintBoard();
+                Console.WriteLine("   ----------------------------------------");
+                Console.WriteLine("    Which chesspiece do you want to move?");
+                var whatmove = Console.ReadLine();
+                Console.WriteLine("    Where do you want to move it? ");
+                var moveto = Console.ReadKey();
+
+                string choice = Console.ReadLine();
+                Console.Clear();
+            }
         }
     }
 }
