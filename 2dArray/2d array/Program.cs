@@ -19,20 +19,20 @@ namespace _2d_array
 
 
             // DETTA ÄR MENYN
-        Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
-        Console.WriteLine("   ----------------------------------");
-        Console.WriteLine("   What do you want to do?");
-        Console.WriteLine("   P.Play a game");
-        Console.WriteLine("   I.Instructions");
-        Console.WriteLine("   X.Exit");
+            Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
+            Console.WriteLine("   ----------------------------------");
+            Console.WriteLine("   What do you want to do?");
+            Console.WriteLine("   P.Play a game");
+            Console.WriteLine("   I.Instructions");
+            Console.WriteLine("   X.Exit");
 
 
-var input = Console.ReadKey();
+            var input = Console.ReadKey();
 
             switch (input.Key) //Switch on Key enum
             {
 
-                    //PLAY
+                //PLAY
                 case ConsoleKey.P:
                     Console.Clear();
 
@@ -42,14 +42,14 @@ var input = Console.ReadKey();
 
 
                     break;
-                    //EXIT
+                //EXIT
                 case ConsoleKey.X:
 
                     // HÄR SKA FINNAS EN SHUTDOWN FÖR PROGRAMMET
-                   
+
                     break;
-               
-              // INSTUKTIONER
+
+                // INSTUKTIONER
                 case ConsoleKey.I:
                     Console.Clear();
                     Console.WriteLine("   CHESS RULES & HOW-TO");
@@ -71,7 +71,7 @@ var input = Console.ReadKey();
                     Console.WriteLine(" Move: Can Move all the way in both horizonal and vertical. Can be blocked");
                     Console.WriteLine(" Attack: Move all the way untill an is reached enemy.");
                     Console.WriteLine("");
-                    Console.WriteLine(" KNIGHT aka K");
+                    Console.WriteLine(" Crusader aka KNIGHT aka C");
                     Console.WriteLine("Move: 2 Steps to a direction and then one square to the Right/Left");
                     Console.WriteLine("Attack: Gotta land on the enemy to have it killed");
                     Console.WriteLine("");
@@ -87,20 +87,20 @@ var input = Console.ReadKey();
                     // SVAR PÅ OM ALLT ÄR FÖRSTÅTT
                     Console.WriteLine(" Is it all understood?");
                     var answer = Console.ReadKey();
-                    
-                switch (answer.Key)
+
+                    switch (answer.Key)
                     {
                         case ConsoleKey.Y:
-                             Console.WriteLine("");
-                             Console.WriteLine("Great, let's game!");
-                             Console.Clear();
+                            Console.WriteLine("");
+                            Console.WriteLine("Great, let's game!");
+                            Console.Clear();
                             break;
                         case ConsoleKey.N:
                             Console.Clear();
                             Console.WriteLine("Oh.. I will explain it one more time! But more simple this time.. ");
                             break;
                     }
-                   
+
 
                     break;
             }
