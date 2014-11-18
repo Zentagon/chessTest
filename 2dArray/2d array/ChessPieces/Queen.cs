@@ -8,7 +8,7 @@ namespace _2d_array
 {
     public class Queen : IChessPiece
     {
-       
+
         public Position position;
 
         public Queen(string color, Position pos)
@@ -23,28 +23,18 @@ namespace _2d_array
             return name;
         }
 
-        
 
-        
-
-public string Color
-{
-	  get 
-	{ 
-		throw new NotImplementedException(); 
-	}
-	  set 
-	{ 
-		throw new NotImplementedException(); 
-	}
-}
-
-public void Move()
-{
- 	throw new NotImplementedException();
-}
-}
-
+        public string Color
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
         public void Move()
         {
             //DoStuff
