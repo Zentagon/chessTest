@@ -8,43 +8,46 @@ namespace _2d_array
 {
     public class Queen : IChessPiece
     {
-          public string Name="Q";
-        public string Color;
+       
         public Position position;
- 
-        public Queen(string Color, Position pos)
+
+        public Queen(string color, Position pos)
         {
-            this.Color = Color;
+            this.Color = color;
             position = pos;
         }
 
-        //public string Name()
-        //{
-        //    string name = "Q";
-        //    return Color() + name;
-        //}
+        public string Name()
+        {
+            string name = "Q";
+            return name;
+        }
 
-        //public string Color()
-        //{
-        //    string color = "B";
-        //    return color;
+        
 
-        //}
+        
 
-        //public string Name2()
-        //{
-        //    string name2 = "Q";
-        //    return Color2() + name2;
-        //}
-        //public string Color2()
-        //{
-        //    string color2 = "W";
-        //    return color2;
-        //}
+public string Color
+{
+	  get 
+	{ 
+		throw new NotImplementedException(); 
+	}
+	  set 
+	{ 
+		throw new NotImplementedException(); 
+	}
+}
 
-        //public void Move()
-        //{
-        //    //DoStuff
-        //}
+public void Move()
+{
+ 	throw new NotImplementedException();
+}
+}
+
+        public void Move()
+        {
+            //DoStuff
+        }
     }
 }
