@@ -8,5 +8,13 @@ namespace _2d_array
 {
     class MoveEngine
     {
+        public string CalculateMove()
+        {
+            return;
+        }
+        public string Move()
+        {
+            return;
+        }
     }
 }
