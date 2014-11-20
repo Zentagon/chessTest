@@ -17,8 +17,8 @@ namespace _2d_array
         private static void Main(string[] args)
         {
 
-            Player P1 = new Player("Black");
-            Player P2 = new Player("White");
+            Player P1 = new Player("White");
+            Player P2 = new Player("Black");
 
             while (true)
             {

@@ -62,6 +62,6 @@ namespace _2d_array
         //    input[7, 6] = board[7, 6];
         //    input[7, 1] = board[7, 1];
         //    return input[0, 0];
-        }
+        //}
     }
 }
