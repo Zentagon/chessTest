@@ -10,7 +10,8 @@ namespace _2d_array
     {
           // När spelet startar så läses denna in först, assignerar default platser för pjäser.
         public string DefaultSetup(string[,] input)
-         {
+        {
+            
             int x = 8;
             int y = 8;
             string[,] board = new string[x, y];

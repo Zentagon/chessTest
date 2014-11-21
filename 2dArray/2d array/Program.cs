@@ -16,24 +16,19 @@ namespace _2d_array
     {
         private static void Main(string[] args)
         {
+            new Menu();
 
             Player P1 = new Player("White");
             Player P2 = new Player("Black");
+            var turn = P1; // P1 börjar
 
             while (true)
             {
                 //Vits tur
-                var WhitePjäser = P1.GetPieces();
-                var BlackPjäser = P2.GetPieces();
+                var WhitePieces = P1.GetPieces();
+                var BlackPieces = P2.GetPieces();
 
-                GameEngine game = new GameEngine();
-                var move = game.CalculateMove(WhitePjäser, BlackPjäser);
-
-                MoveEngine mover = new MoveEngine();
-                mover.Move(move, P1, P2);
-
-                PrintEngine print = new PrintEngine();
-                print.PrintBoard(P1, P2);
+               
             
 
 
