@@ -9,10 +9,8 @@ namespace _2d_array
 {
     class MoveEngine
     {
-        public string CalculateMove()
-        {
-            
-        }
+        // tillgänliga kordinater och nya kordinater
+        
         public string Move()
         {
             

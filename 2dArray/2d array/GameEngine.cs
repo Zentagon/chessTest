@@ -8,5 +8,9 @@ namespace _2d_array
 {
     class GameEngine
     {
+        public string CalculateMove()
+        {
+
+        }
     }
 }
