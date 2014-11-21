@@ -10,11 +10,11 @@ namespace _2d_array
     {
         public string CalculateMove()
         {
-            return;
+            
         }
         public string Move()
         {
-            return;
+            
         }
     }
 }

@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace _2d_array
 {
-    internal class Menu
+    class Menu
     {
-        static Menu()
-        {
-            // DETTA ÄR MENYN
+            public static class MenuStart{      
             Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
             Console.WriteLine("   ----------------------------------");
             Console.WriteLine("   What do you want to do?");
@@ -25,7 +22,7 @@ namespace _2d_array
             switch (input.Key) //Switch on Key enum
             {
 
-                    //PLAY
+                //PLAY
                 case ConsoleKey.P:
                     Console.Clear();
 
@@ -35,22 +32,23 @@ namespace _2d_array
 
 
                     break;
-                    //EXIT
+                //EXIT
                 case ConsoleKey.X:
 
                     // HÄR SKA FINNAS EN SHUTDOWN FÖR PROGRAMMET
 
                     break;
 
-                    // INSTUKTIONER
+                // INSTUKTIONER
                 case ConsoleKey.I:
                     Console.Clear();
                     Console.WriteLine("   CHESS RULES & HOW-TO");
                     Console.WriteLine(" ----------------------------------");
                     Console.WriteLine(" Your objective is to kill the black king,");
                     Console.WriteLine(" it might sound very racist but it is not.");
-                    Console.WriteLine(" Whenever something is 'killed', the square is replaced /r/n by your own chesspiece");
+                    Console.WriteLine(" Whenever something is 'killed', the square is replaced by your own chesspiece");
                     Console.WriteLine("");
+
                     Console.WriteLine(" There will always be 2 letters for a piece,");
                     Console.WriteLine(" first is for color and second is for character.");
                     Console.WriteLine("");
@@ -69,8 +67,7 @@ namespace _2d_array
                     Console.WriteLine("Attack: Gotta land on the enemy to have it killed");
                     Console.WriteLine("");
                     Console.WriteLine(" BISHOP aka B");
-                    Console.WriteLine(
-                        "Move: no restrictions in distance for each move, but is limited to diagonal movement. ");
+                    Console.WriteLine("Move: no restrictions in distance for each move, but is limited to diagonal movement. ");
                     Console.WriteLine("");
                     Console.WriteLine(" QUEEN aka Q");
                     Console.WriteLine("Move: Horizontal, Vertical and diagonal untill it reaches a friedly or enemy.");
@@ -99,10 +96,7 @@ namespace _2d_array
 
                     break;
             }
-        }
     }
-}
+    }
 
-        
-    
-    
+}
