@@ -8,7 +8,7 @@ namespace _2d_array
 {
     class Menu
     {
-            public static class MenuStart{      
+            public string MenuStart (string supmahnig){      
             Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
             Console.WriteLine("   ----------------------------------");
             Console.WriteLine("   What do you want to do?");
