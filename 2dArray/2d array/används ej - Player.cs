@@ -8,7 +8,12 @@ namespace _2d_array
 {
     class Player
     {
-        public List<Peasant> Piece = new List<Peasant>();
+         public List<Peasant> Pawn = new List<Peasant>();
+        public List<Queen> Queen = new List<Queen>();
+        public List<Crusader> Crusader = new List<Crusader>();
+        public List<King> King = new List<King>();
+        public List<Tower> Tower = new List<Tower>();
+        public List<Bishop> Bishop = new List<Bishop>();
         public string Color;
 
         public Player(string Color)
@@ -22,14 +27,17 @@ namespace _2d_array
             Peasant WP6 = new Peasant("W", new Position(6, 1));
             Peasant WP7 = new Peasant("W", new Position(7, 1));
             Peasant WP8 = new Peasant("W", new Position(8, 1));
-            Piece.Add(WP1);
-            Piece.Add(WP2);
-            Piece.Add(WP3);
-            Piece.Add(WP4);
-            Piece.Add(WP5);
-            Piece.Add(WP6);
-            Piece.Add(WP7);
-            Piece.Add(WP8);
+            Pawn.Add(WP1);
+            Pawn.Add(WP2);
+            Pawn.Add(WP3);
+            Pawn.Add(WP4);
+            Pawn.Add(WP5);
+            Pawn.Add(WP6);
+            Pawn.Add(WP7);
+            Pawn.Add(WP8);
+
+        
+
             Peasant BP1 = new Peasant("B", new Position(1, 6));
             Peasant BP2 = new Peasant("B", new Position(2, 6));
             Peasant BP3 = new Peasant("B", new Position(3, 6));
@@ -38,19 +46,23 @@ namespace _2d_array
             Peasant BP6 = new Peasant("B", new Position(6, 6));
             Peasant BP7 = new Peasant("B", new Position(7, 6));
             Peasant BP8 = new Peasant("B", new Position(8, 6));
-            Piece.Add(BP1);
-            Piece.Add(BP2);
-            Piece.Add(BP3);
-            Piece.Add(BP4);
-            Piece.Add(BP5);
-            Piece.Add(BP6);
-            Piece.Add(BP7);
-            Piece.Add(BP8);
+            Pawn.Add(BP1);
+            Pawn.Add(BP2);
+            Pawn.Add(BP3);
+            Pawn.Add(BP4);
+            Pawn.Add(BP5);
+            Pawn.Add(BP6);
+            Pawn.Add(BP7);
+            Pawn.Add(BP8);
         }
 
-        public List<Peasant> GetPieces()
+       public List<Peasant> GetPieces()
         {
-            return Piece;
+            return Pawn;
         }
     }
+
 }
+    
+        
+
