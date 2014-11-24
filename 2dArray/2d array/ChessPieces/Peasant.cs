@@ -10,7 +10,7 @@ namespace _2d_array
     {
 
         public Position position;
-
+        
         public Peasant(string color, Position pos)
         {
             this.Color = color;
@@ -26,14 +26,8 @@ namespace _2d_array
 
         public string Color
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
-            }
+            get;
+            set;
         }
         public void Move()
         {

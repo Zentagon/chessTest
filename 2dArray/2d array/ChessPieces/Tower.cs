@@ -26,14 +26,8 @@ namespace _2d_array
 
        public string Color
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
-            }
+            get;
+            set;
         }
         public void Move()
         {
