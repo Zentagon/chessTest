@@ -76,9 +76,11 @@ namespace _2d_array
                     Console.WriteLine("UNIQUE: if a pawn reaches the other players end, then a new QUEEN will spawn.");
                     Console.WriteLine(" KING aka K");
                     Console.WriteLine("");
-
+                    Console.WriteLine("");
                     // SVAR PÅ OM ALLT ÄR FÖRSTÅTT
+                    Console.WriteLine("");
                     Console.WriteLine(" Is it all understood?");
+                    Console.WriteLine("");
                     var answer = Console.ReadKey();
 
                     switch (answer.Key)
@@ -86,11 +88,13 @@ namespace _2d_array
                         case ConsoleKey.Y:
                             Console.WriteLine("");
                             Console.WriteLine("Great, let's game!");
+                            Console.WriteLine("");
                             Console.Clear();
                             break;
                         case ConsoleKey.N:
                             Console.Clear();
                             Console.WriteLine("Oh.. I will explain it one more time! But more simple this time.. ");
+                            Console.WriteLine("");
                             break;
                     }
 
