@@ -16,7 +16,11 @@ namespace _2d_array
     {
         private static void Main(string[] args)
         {
-            new Menu();
+            Menu menu = new Menu();
+
+            menu.MenuStart();
+
+
 
             Player P1 = new Player("White");
             Player P2 = new Player("Black");
