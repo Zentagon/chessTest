@@ -55,10 +55,10 @@ namespace _2d_array
             whiteSide.DefaultSetupW(chessBoard.board);
             blackside.DefaultSetup(chessBoard.board);
                 
-            }
-        }
+            
+        
 
-            while (true)
+           
        
             {
                 chessBoard.PrintBoard();
