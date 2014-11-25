@@ -49,12 +49,10 @@ namespace _2d_array
             {
                 chessBoard.PrintBoard();
                 Console.WriteLine("   ----------------------------------------");
-                Console.WriteLine("    Which chesspiece do you want to move?");
-                var whatmove = Console.ReadLine();
-                Console.WriteLine("    Where do you want to move it? ");
-                var moveto = Console.ReadKey();
+               
+                Console.ReadKey();
 
-                string choice = Console.ReadLine();
+                
                 Console.Clear();
             }
         }

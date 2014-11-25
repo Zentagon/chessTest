@@ -83,12 +83,14 @@ namespace _2d_array
                     Console.WriteLine("");
                     var answer = Console.ReadKey();
 
+                 
                     switch (answer.Key)
                     {
                         case ConsoleKey.Y:
                             Console.WriteLine("");
                             Console.WriteLine("Great, let's game!");
                             Console.WriteLine("");
+                            Console.ReadKey();
                             Console.Clear();
                             break;
                         case ConsoleKey.N:
