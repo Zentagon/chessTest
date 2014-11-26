@@ -8,7 +8,7 @@ namespace _2d_array
 {
     class Player
     {
-         public List<Peasant> Pawn = new List<Peasant>();
+        public List<Peasant> Pawn = new List<Peasant>();
         public List<Queen> Queen = new List<Queen>();
         public List<Crusader> Crusader = new List<Crusader>();
         public List<King> King = new List<King>();
@@ -35,8 +35,6 @@ namespace _2d_array
             Pawn.Add(WP6);
             Pawn.Add(WP7);
             Pawn.Add(WP8);
-
-        
 
             Peasant BP1 = new Peasant("B", new Position(1, 6));
             Peasant BP2 = new Peasant("B", new Position(2, 6));
