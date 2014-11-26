@@ -43,9 +43,10 @@
   <ItemGroup>
     <Compile Include="ChessPieces\Bishop.cs" />
     <Compile Include="ChessBoard.cs" />
-    <Compile Include="ChessPiece.cs" />
+    <Compile Include="IChessPiece.cs" />
     <Compile Include="ChessPieces\Crusader.cs" />
     <Compile Include="ChessPieces\King.cs" />
+    <Compile Include="GameEngenie.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="ChessPieces\Peasant.cs" />
     <Compile Include="Position.cs" />

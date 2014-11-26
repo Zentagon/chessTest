@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2d_array
 {
-    public interface IChessPiece
+    public interface IChessPiece 
     {
         string Name();
         string Color { get; set; }
