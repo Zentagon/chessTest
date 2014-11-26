@@ -13,6 +13,7 @@ namespace _2d_array
 
         public King (string color, Position pos)
         {
+            
             this.Color = color;
             position = pos;
         }
@@ -20,7 +21,7 @@ namespace _2d_array
         public string Name()
         {
             string name = "K";
-            return name;
+            return Color + name;
         }
 
 

@@ -17,7 +17,7 @@ namespace _2d_array
         public string Name()
         {
             string name = "Q";
-            return name;
+            return Color + name;
         }
         public string Color
         {
