@@ -8,9 +8,7 @@ namespace _2d_array
 {
     public class Tower : IChessPiece
     {
-     
         public Position position;
-
         public Tower(string color, Position pos)
         {
             this.Color = color;
@@ -22,8 +20,6 @@ namespace _2d_array
             string name = "T";
             return name;
         }
-
-
        public string Color
         {
             get;

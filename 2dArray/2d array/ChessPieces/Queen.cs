@@ -8,22 +8,17 @@ namespace _2d_array
 {
     public class Queen : IChessPiece
     {
-
         public Position position;
-
         public Queen(string color, Position pos)
         {
             this.Color = color;
             position = pos;
         }
-
         public string Name()
         {
             string name = "Q";
             return name;
         }
-
-
         public string Color
         {
             get;

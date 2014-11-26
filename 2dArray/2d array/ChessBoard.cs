@@ -14,17 +14,8 @@ namespace _2d_array
         public static int x = 8;
         public static int y = 8;
         public string[,] board = new string[x, y];
-
     public void PrintBoard()
     {
-
-
-
-
-
-
-        
-
             Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
             Console.WriteLine("   ----------------------------------------");
             Console.WriteLine("                Black Side   ");
@@ -55,8 +46,7 @@ namespace _2d_array
                 board[7, 3], board[7, 4], board[7, 5], board[7, 6], board[7, 7]);
         Console.WriteLine("   ----------------------------------------");
        
-        Console.Write("     A"); Console.Write("   B"); Console.Write("   C"); Console.Write("   D"); Console.Write("   E"); Console.Write("   F"); Console.Write("   G"); Console.WriteLine("   H");
-            
+        Console.Write("     A"); Console.Write("   B"); Console.Write("   C"); Console.Write("   D"); Console.Write("   E"); Console.Write("   F"); Console.Write("   G"); Console.WriteLine("   H");           
         }
     }
 }

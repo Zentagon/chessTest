@@ -16,14 +16,11 @@ namespace _2d_array
             this.Color = color;
             position = pos;
         }
-
         public string Name()
         {
             string name = "C";
             return name;
         }
-
-
         public string Color
         {
             get;

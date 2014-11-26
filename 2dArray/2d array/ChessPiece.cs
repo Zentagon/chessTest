@@ -9,9 +9,7 @@ namespace _2d_array
     public interface IChessPiece
     {
         string Name();
-
         string Color { get; set; }
-        void Move();
-        
+        void Move();   
     }
 }

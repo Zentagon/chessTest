@@ -17,20 +17,13 @@ namespace _2d_array
             Console.WriteLine("   I.Instructions");
             Console.WriteLine("   X.Exit");
 
-
             var input = Console.ReadKey();
 
             switch (input.Key) //Switch on Key enum
             {
-
                 //PLAY
                 case ConsoleKey.P:
                     Console.Clear();
-
-
-
-
-
 
                     break;
                 //EXIT
@@ -49,7 +42,6 @@ namespace _2d_array
                     Console.WriteLine(" it might sound very racist but it is not.");
                     Console.WriteLine(" Whenever something is 'killed', the square is replaced by your own chesspiece");
                     Console.WriteLine("");
-
                     Console.WriteLine(" There will always be 2 letters for a piece,");
                     Console.WriteLine(" first is for color and second is for character.");
                     Console.WriteLine("");
@@ -83,7 +75,6 @@ namespace _2d_array
                     Console.WriteLine("");
                     var answer = Console.ReadKey();
 
-                 
                     switch (answer.Key)
                     {
                         case ConsoleKey.Y:
@@ -99,11 +90,8 @@ namespace _2d_array
                             Console.WriteLine("");
                             break;
                     }
-
-
                     break;
             }
         }
     }
-
 }
