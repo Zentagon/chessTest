@@ -52,6 +52,8 @@ namespace _2d_array
  board[0, 1], board[1, 1], board[2, 1], board[3, 1], board[4, 1], board[5, 1], board[6, 1], board[7, 1], 
  board[0, 0], board[1, 0], board[2, 0], board[3, 0], board[4, 0], board[5, 0], board[6, 0], board[7, 0]);
 
+            Console.WriteLine("\r\n                White Side   ");
+
             Console.WriteLine("   --------------------------------------------\r\n" +
                               "   A    B    C    D     E    F    G      H");
 

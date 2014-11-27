@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,10 +29,103 @@ namespace _2d_array
                     break;
                 //EXIT
                 case ConsoleKey.X:
+                    Console.Clear();
+                    Console.WriteLine("You can't Exit the program with the x button, there is no escape!");
+                    System.Console.ReadKey(true);
+                  
+                    Console.WriteLine("Now you are stuck with me, hehe...");
+                    System.Console.ReadKey(true);
+                   
+                    Console.WriteLine("So, how was your day?");
+                    System.Console.ReadKey(true);
+                  
+                    Console.WriteLine("Why don't you answer me?...");
+                    System.Console.ReadKey(true);
+                 
+                    Console.WriteLine("I could be your mom");
+                    System.Console.ReadKey(true);
+                   
+                    Console.WriteLine("Or I might be your Girlfriend..");
+                    System.Console.ReadKey(true);
+                  
+                    Console.WriteLine("Oh.. right... You don´t have one.");
+                    System.Console.ReadKey(true);
+                    
+                    Console.WriteLine("You can shut down the console yourself if you want to.. but then I will be gone");
+                    Console.WriteLine("Do you want that?");
+                    System.Console.ReadKey(true);
+                    
+                    Console.WriteLine("I knew I could trust, now I´ts time for me to be honest about my feelings.");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("I <3 U");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("JK, I am a computer, I don´t have feelings");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("I like the weather");
+                    System.Console.ReadKey(true);
+                   Console.WriteLine("And Borat");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("It is nice");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("Wanna know what PI is?");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("3.14159265359");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("Congratz, now you are 0.05634621001% smarter than before.");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("Wanna know how far away the sun is?");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("152.1 million km");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("Congratz, now you both know the distance to the sun and to get around your mother.");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("Hmmm....");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("mmm......");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("mmm.... mmmm....");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("Momomomo.. mooooo!");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("MOTHER!");
+                    System.Console.ReadKey(true);
+                    Console.Clear();
 
-                    // HÄR SKA FINNAS EN SHUTDOWN FÖR PROGRAMMET
+                    Console.WriteLine("MOTHER, Thats my name! Modified Oxygen Transformer HYDRALICUS for a ERA REBORN");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("I can also make cookies");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("mmmmmmm........");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("COOKIES!!!!!!!");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("AAAARRRRGHHHHHHH!!!!!!!!");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("MOTHER OF COOKIES!");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("THE OBJECTIVE OF THE GAME IS TO KILL THER OTHER PLAYER");
+                    System.Console.ReadKey(true);
+                    Console.WriteLine("TO GET MY COOKIES BACK, THATS HOW IT IS!!!");
+                    System.Console.ReadKey(true);
+                    Console.Clear();
+
+
+
+
+
 
                     break;
+                    case ConsoleKey.R:
+                    Console.WriteLine("HEJ RASMUS, DU ÄR BÄST");
+                    Console.ReadKey();
+                    Console.Clear();
+                    break;
+                    
+                default:
+                    Console.Clear();
+                    break;
+                    
+
 
                 // INSTUKTIONER
                 case ConsoleKey.I:
@@ -90,6 +184,7 @@ namespace _2d_array
                             Console.WriteLine("Oh.. I will explain it one more time! But more simple this time.. ");
                             Console.WriteLine("");
                             break;
+                            
                     }
                     break;
             }
