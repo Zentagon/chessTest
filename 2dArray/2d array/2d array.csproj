@@ -48,7 +48,8 @@
     <Compile Include="ChessPieces\King.cs" />
     <Compile Include="GameEngenie.cs" />
     <Compile Include="Menu.cs" />
-    <Compile Include="ChessPieces\Peasant.cs" />
+    <Compile Include="ChessPieces\Pawn.cs" />
+    <Compile Include="Move.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

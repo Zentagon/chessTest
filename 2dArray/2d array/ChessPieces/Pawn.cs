@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace _2d_array
 {
-    public class Peasant : IChessPiece
+    public class Pawn : IChessPiece
     {
         public Position position;
-        public Peasant(string color, Position pos)
+        public Pawn(string color, Position pos)
         {
             this.Color = color;
             position = pos;
