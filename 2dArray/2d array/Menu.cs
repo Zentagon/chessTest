@@ -69,7 +69,8 @@ namespace _2d_array
                     Console.WriteLine(" KING aka K");
                     Console.WriteLine("");
                     Console.WriteLine("");
-                    // SVAR PÅ OM ALLT ÄR FÖRSTÅTT
+                   
+                // SVAR PÅ OM ALLT ÄR FÖRSTÅTT
                     Console.WriteLine("");
                     Console.WriteLine(" Is it all understood?");
                     Console.WriteLine("");

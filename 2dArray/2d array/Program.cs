@@ -34,7 +34,7 @@ namespace _2d_array
             blackside.DefaultSetup(chessBoard.board);
             {
                 chessBoard.PrintBoard();
-                Console.WriteLine("   ----------------------------------------");               
+                Console.WriteLine("   --------------------------------------------");               
                 Console.ReadKey();                
                 Console.Clear();
                 }

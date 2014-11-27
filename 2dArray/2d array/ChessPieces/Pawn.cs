@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _2d_array;
 
 namespace _2d_array
 {
     public class Pawn : IChessPiece
     {
         public Position position;
-        public Pawn(string color, Position pos)
+        public Pawn(string color, int x, int y)
         {
             this.Color = color;
-            position = pos;
+            
         }
         public string Name()
         {
-            string name = "P";
+            string name = "bajs";
             return Color + name;
         }
         public string Color
@@ -24,9 +25,20 @@ namespace _2d_array
             get;
             set;
         }
+
         public void Move()
         {
-            //DoStuff
+            
+            
+
+        }
+
+        public void Draw()
+        {
+            //int startX = Position.X;
+            //int startY = Position.Y;
+
+            //Console.SetCursorPosition(startX, startY);
         }
     }
 }

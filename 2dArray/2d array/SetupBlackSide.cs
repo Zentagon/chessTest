@@ -15,14 +15,15 @@ namespace _2d_array
             int x = 8;
             int y = 8;
             string[,] board = new string[x, y];
-            Pawn BlackPawn1 = new Pawn("B", new Position(0, 1));
-            Pawn BlackPawn2 = new Pawn("B", new Position(1, 1));
-            Pawn BlackPawn3 = new Pawn("B", new Position(2, 1));
-            Pawn BlackPawn4 = new Pawn("B", new Position(3, 1));
-            Pawn BlackPawn5 = new Pawn("B", new Position(4, 1));
-            Pawn BlackPawn6 = new Pawn("B", new Position(5, 1));
-            Pawn BlackPawn7 = new Pawn("B", new Position(6, 1));
-            Pawn BlackPawn8 = new Pawn("B", new Position(7, 1));
+            Pawn BlackPawn1 = new Pawn("B", 0,6 );
+            Pawn BlackPawn2 = new Pawn("B", 1,6);
+            Pawn BlackPawn3 = new Pawn("B", 2,6);
+            Pawn BlackPawn4 = new Pawn("B", 3,6);
+            Pawn BlackPawn5 = new Pawn("B", 4,6);
+            Pawn BlackPawn6 = new Pawn("B", 5,6);
+            Pawn BlackPawn7 = new Pawn("B", 6,6);
+            Pawn BlackPawn8 = new Pawn("B", 7,6);
+            
            
             
             //King king = new King("B", new Position(0, 4));

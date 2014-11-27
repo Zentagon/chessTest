@@ -13,22 +13,22 @@ namespace _2d_array
             int x = 8;
             int y = 8;
             string[,] board = new string[x, y];
-            Pawn whitePawn1 = new Pawn("W", new Position(6, 0));
-            Pawn whitePawn2 = new Pawn("W", new Position(6, 1));
-            Pawn whitePawn3 = new Pawn("W", new Position(6, 2));
-            Pawn whitePawn4 = new Pawn("W", new Position(6, 3));
-            Pawn whitePawn5 = new Pawn("W", new Position(6, 4));
-            Pawn whitePawn6 = new Pawn("W", new Position(6, 5));
-            Pawn whitePawn7 = new Pawn("W", new Position(6, 6));
-            Pawn whitePawn8 = new Pawn("W", new Position(6, 7));
-            King king = new King("W", new Position(7, 4));
-            Queen queen = new Queen("W", new Position(7, 3));
-            Bishop bishop = new Bishop("W", new Position(7, 2));
-            Bishop bishop2 = new Bishop("W", new Position(7, 5));
-            Tower tower = new Tower("W", new Position(7, 0));
-            Tower tower2 = new Tower("W", new Position(7, 7));
-            Crusader crusader = new Crusader("W", new Position(7, 6));
-            Crusader crusader2 = new Crusader("W", new Position(7, 1));
+            Pawn whitePawn1 = new Pawn("W", 0,1);
+            Pawn whitePawn2 = new Pawn("W", 1,1);
+            Pawn whitePawn3 = new Pawn("W", 2,1);
+            Pawn whitePawn4 = new Pawn("W", 3,1);
+            Pawn whitePawn5 = new Pawn("W", 4,1);
+            Pawn whitePawn6 = new Pawn("W", 5,1);
+            Pawn whitePawn7 = new Pawn("W", 6,1);
+            Pawn whitePawn8 = new Pawn("W", 7,1);
+            //King king = new King("W", new Position(7, 4));
+            //Queen queen = new Queen("W", new Position(7, 3));
+            //Bishop bishop = new Bishop("W", new Position(7, 2));
+            //Bishop bishop2 = new Bishop("W", new Position(7, 5));
+            //Tower tower = new Tower("W", new Position(7, 0));
+            //Tower tower2 = new Tower("W", new Position(7, 7));
+            //Crusader crusader = new Crusader("W", new Position(7, 6));
+            //Crusader crusader2 = new Crusader("W", new Position(7, 1));
           
             
             
