@@ -8,7 +8,7 @@ namespace _2d_array
 {
     class SetupBlackSide
     {
-        ChessBoard chessbord;
+     // ChessBoard chessboard;
           // När spelet startar så läses denna in först, assignerar default platser för pjäser.
         public void DefaultSetup()
         {

@@ -14,7 +14,7 @@ namespace _2d_array
        
         public static int x = 8;
         public static int y = 8;
-        public Pawn[,] board = new Pawn[x, y];
+        public IChessPiece[,] board = new IChessPiece[x, y];
      
       
         
@@ -39,7 +39,27 @@ namespace _2d_array
             board[5, 1] = new Pawn("W", new Position(5, 1));
             board[6, 1] = new Pawn("W", new Position(6, 1));
             board[7, 1] = new Pawn("W", new Position(7, 1));
-           
+            // Kings
+            board[4, 0] = new King("W", new Position(4, 0));
+            board[4, 7] = new King("B", new Position(4, 7));
+           // Queens
+            board[3, 0] = new Queen("W", new Position(3, 0));
+            board[3, 7] = new Queen("B", new Position(3, 7));
+            //Tower
+            board[0, 0] = new Tower("W", new Position(0, 0));
+            board[7, 0] = new Tower("W", new Position(7, 0));
+            board[0, 7] = new Tower("B", new Position(0, 7));
+            board[7, 7] = new Tower("B", new Position(7, 7));
+            // Crusader
+            board[1, 0] = new Crusader("W", new Position(1,0));
+            board[6, 0] = new Crusader("W", new Position(6, 0));
+            board[1, 7] = new Crusader("B", new Position(1, 7));
+            board[6, 7] = new Crusader("B", new Position(6, 7));
+            // Bishop
+            board[2, 0] = new Bishop("W", new Position(2, 0));
+            board[5, 0] = new Bishop("W", new Position(5, 0));
+            board[2, 7] = new Bishop("B", new Position(2, 7));
+            board[5, 7] = new Bishop("B", new Position(5, 7));
            
             
         }
@@ -53,14 +73,14 @@ namespace _2d_array
             Console.WriteLine("   --------------------------------------------------------------");
             Console.WriteLine("                Black Side   ");
             Console.WriteLine(@"
- 1 |  [  {0}  ] (  {1}  ) [  {2}  ] (  {3}  ) [  {4}  ] (  {5}  ) [  {6}  ] (  {7}  )   
+ 1 |  [ {0} ] ( {1} ) [ {2} ] ( {3} ) [ {4} ] ( {5} ) [ {6} ] ( {7} )   
  2 |  ( {8} ) [ {9} ] ( {10} ) [ {11} ] ( {12} ) [ {13} ] ( {14} ) [ {15} ]   
  3 |  [  {16}  ] (  {17}  ) [  {18}  ] (  {19}  ) [  {20}  ] (  {21}  ) [  {22}  ] (  {23}  )  
  4 |  (  {24}  ) [  {25}  ] (  {26}  ) [  {27}  ] (  {28}  ) [  {29}  ] (  {30}  ) [  {31}  ]   
  5 |  [  {32}  ] (  {33}  ) [  {34}  ] (  {35}  ) [  {36}  ] (  {37}  ) [  {38}  ] (  {39}  )   
  6 |  (  {40}  ) [  {41}  ] (  {42}  ) [  {43}  ] (  {44}  ) [  {45}  ] (  {46}  ) [  {47}  ]   
  7 |  [ {48} ] ( {49} ) [ {50} ] ( {51} ) [ {52} ] ( {53} ) [ {54} ] ( {55} )  
- 8 |  (  {56}  ) [  {57}  ] (  {58}  ) [  {59}  ] (  {60}  ) [  {61}  ] (  {62}  ) [  {63}  ]   ",
+ 8 |  ( {56} ) [ {57} ] ( {58} ) [ {59} ] ( {60} ) [ {61} ] ( {62} ) [ {63} ]   ",
 
                 board[0, 7], board[1, 7], board[2, 7], board[3, 7], board[4, 7], board[5, 7], board[6, 7], board[7, 7],
                 board[0, 6], board[1, 6], board[2, 6], board[3, 6], board[4, 6], board[5, 6], board[6, 6], board[7, 6],
