@@ -29,5 +29,16 @@ namespace _2d_array
         {
             //DoStuff
         }
+        public override string ToString()
+        {
+            return Name();
+        }
+        public void Draw()
+        {
+            //int startX = Position.X;
+            //int startY = Position.Y;
+
+            //Console.SetCursorPosition(startX, startY);
+        }
     }
 }
