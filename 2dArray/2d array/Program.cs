@@ -41,7 +41,7 @@ namespace _2d_array
            
             {
                 chessBoard.PrintBoard();
-                Console.WriteLine("   --------------------------------------------");               
+                Console.WriteLine("   ------------------------------------------------------------");               
                 Console.ReadKey();                
                 Console.Clear();
                 }
