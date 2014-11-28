@@ -11,25 +11,36 @@ namespace _2d_array
 {
     public class ChessBoard
     {
+       
         public static int x = 8;
         public static int y = 8;
-        public string[,] board = new string[x, y];
-
-        
-        
-
-        
-
+        public Pawn[,] board = new Pawn[x, y];
+        Position plays = new Position();
+        public void start()
+        {
+            board[0, 6] = new Pawn("B", new Position(0, 6));
+            board[1, 6] = new Pawn("B", new Position(1, 6));
+            board[2, 6] = new Pawn("B", new Position(2, 6));
+            board[3, 6] = new Pawn("B", new Position(3, 6));
+            board[4, 6] = new Pawn("B", new Position(4, 6));
+            board[5, 6] = new Pawn("B", new Position(5, 6));
+            board[6, 6] = new Pawn("B", new Position(6, 6));
+            board[7, 6] = new Pawn("B", new Position(7, 6));
+            board[0, 1] = new Pawn("W", new Position(0, 1));
+            board[1, 1] = new Pawn("W", new Position(1, 1));
+            board[2, 1] = new Pawn("W", new Position(2, 1));
+            board[3, 1] = new Pawn("W", new Position(3, 1));
+            board[4, 1] = new Pawn("W", new Position(4, 1));
+            board[5, 1] = new Pawn("W", new Position(5, 1));
+            board[6, 1] = new Pawn("W", new Position(6, 1));
+            board[7, 1] = new Pawn("W", new Position(7, 1));
+        }
+       //public void Movits()
+       // {
+       //     board[1, 6].position.X = board[1, 6].position.X + 1;
+       // }
         public void PrintBoard()
         {
-
-
-
-
-
-
-
-
             Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
             Console.WriteLine("   ----------------------------------------");
             Console.WriteLine("                Black Side   ");
@@ -56,10 +67,6 @@ namespace _2d_array
 
             Console.WriteLine("   --------------------------------------------\r\n" +
                               "   A    B    C    D     E    F    G      H");
-
-
-          
-
         }
     }
 }

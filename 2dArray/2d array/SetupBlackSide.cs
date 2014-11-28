@@ -8,21 +8,14 @@ namespace _2d_array
 {
     class SetupBlackSide
     {
+        ChessBoard chessbord;
           // När spelet startar så läses denna in först, assignerar default platser för pjäser.
-        public string DefaultSetup(string[,] input)
+        public void DefaultSetup()
         {
             
-            int x = 8;
-            int y = 8;
-            string[,] board = new string[x, y];
-            Pawn BlackPawn1 = new Pawn("B", 0,6 );
-            Pawn BlackPawn2 = new Pawn("B", 1,6);
-            Pawn BlackPawn3 = new Pawn("B", 2,6);
-            Pawn BlackPawn4 = new Pawn("B", 3,6);
-            Pawn BlackPawn5 = new Pawn("B", 4,6);
-            Pawn BlackPawn6 = new Pawn("B", 5,6);
-            Pawn BlackPawn7 = new Pawn("B", 6,6);
-            Pawn BlackPawn8 = new Pawn("B", 7,6);
+            
+            
+           
             
            
             
@@ -42,14 +35,14 @@ namespace _2d_array
             //board[0, 4] = king.Name();
             //board[0, 6] = crusader2.Name();
             //board[0, 1] = crusader.Name();
-            //board[1, 0] = blackBonde1.Name();
-            //board[1, 1] = blackBonde2.Name();
-            //board[1, 2] = blackBonde3.Name();
-            //board[1, 3] = blackBonde4.Name();
-            //board[1, 4] = blackBonde5.Name();
-            //board[1, 5] = blackBonde6.Name();
-            //board[1, 6] = blackBonde7.Name();
-            //board[1, 7] = blackBonde8.Name();
+            //board[0, 0] = BlackPawn1.Name();
+            //board[0, 1] = BlackPawn2.Name();
+            //board[0, 2] = BlackPawn3.Name();
+            //board[0, 3] = BlackPawn4.Name();
+            //board[0, 4] = BlackPawn5.Name();
+            //board[0, 5] = BlackPawn6.Name();
+            //board[0, 6] = BlackPawn7.Name();
+            //board[0, 7] = BlackPawn8.Name();
             //input[1, 0] = board[1, 0];
             //input[1, 1] = board[1, 1];
             //input[1, 2] = board[1, 2];
@@ -66,7 +59,7 @@ namespace _2d_array
             //input[0, 4] = board[0, 4];
             //input[0, 6] = board[0, 6];
             //input[0, 1] = board[0, 1];
-            return input[7, 7];
+           
           }
      }
 }

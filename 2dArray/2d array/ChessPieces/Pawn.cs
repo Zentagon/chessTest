@@ -10,14 +10,14 @@ namespace _2d_array
     public class Pawn : IChessPiece
     {
         public Position position;
-        public Pawn(string color, int x, int y)
+        public Pawn(string color, Position pos)
         {
             this.Color = color;
             
         }
         public string Name()
         {
-            string name = "bajs";
+            string name = "P";
             return Color + name;
         }
         public string Color
@@ -32,7 +32,10 @@ namespace _2d_array
             
 
         }
-
+        public override string ToString()
+        {
+            return Name();
+        }
         public void Draw()
         {
             //int startX = Position.X;

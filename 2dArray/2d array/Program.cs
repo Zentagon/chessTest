@@ -17,21 +17,28 @@ namespace _2d_array
         {
             Menu menu = new Menu();            
             menu.MenuStart();
-            Player P1 = new Player("White");
-            Player P2 = new Player("Black");
-            var turn = P1; // P1 börjar
+            //Player P1 = new Player("White");
+            //Player P2 = new Player("Black");
+            //var turn = P1; // P1 börjar 
+            ChessBoard chessBoard = new ChessBoard();
+            chessBoard.start();
+           
+            
+            //chessBoard.Movits();
+           
+
+            //SetupBlackSide blackside = new SetupBlackSide();
+            //SetupWhiteSide whiteSide = new SetupWhiteSide();
+            //whiteSide.DefaultSetupW();
+            //blackside.DefaultSetup();
             while (true)
         
             {
                 //Vits tur
-                var WhitePieces = P1.GetPieces();
-                var BlackPieces = P2.GetPieces();
+                //var WhitePieces = P1.GetPieces();
+                //var BlackPieces = P2.GetPieces();
             // SPELET STARTAR 
-            ChessBoard chessBoard = new ChessBoard();
-            SetupBlackSide blackside = new SetupBlackSide();
-            SetupWhiteSide whiteSide = new SetupWhiteSide();
-            whiteSide.DefaultSetupW(chessBoard.board);
-            blackside.DefaultSetup(chessBoard.board);
+           
             {
                 chessBoard.PrintBoard();
                 Console.WriteLine("   --------------------------------------------");               
