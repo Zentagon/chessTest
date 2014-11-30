@@ -30,3 +30,5 @@ F:\Dokument\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.exe.config
 F:\Dokument\GitHub\chessTest\2dArray\2d array\obj\Debug\2d array.exe
 F:\Dokument\GitHub\chessTest\2dArray\2d array\obj\Debug\2d array.pdb
 F:\Dokument\GitHub\chessTest\2dArray\2d array\obj\Debug\2d array.csprojResolveAssemblyReference.cache
+F:\Dokument\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.exe
+F:\Dokument\GitHub\chessTest\2dArray\2d array\bin\Debug\2d array.pdb

@@ -22,7 +22,7 @@ namespace _2d_array
         public void start()
         {
 
-            // pawns
+            // Sets out Black pawns
             board[0, 6] = new Pawn("B", new Position(0, 6));
             board[1, 6] = new Pawn("B", new Position(1, 6));
             board[2, 6] = new Pawn("B", new Position(2, 6));
@@ -31,6 +31,7 @@ namespace _2d_array
             board[5, 6] = new Pawn("B", new Position(5, 6));
             board[6, 6] = new Pawn("B", new Position(6, 6));
             board[7, 6] = new Pawn("B", new Position(7, 6));
+            // Sets out White pawns
             board[0, 1] = new Pawn("W", new Position(0, 1));
             board[1, 1] = new Pawn("W", new Position(1, 1));
             board[2, 1] = new Pawn("W", new Position(2, 1));
@@ -39,34 +40,41 @@ namespace _2d_array
             board[5, 1] = new Pawn("W", new Position(5, 1));
             board[6, 1] = new Pawn("W", new Position(6, 1));
             board[7, 1] = new Pawn("W", new Position(7, 1));
-            // Kings
+            // Sets out White Kings
             board[4, 0] = new King("W", new Position(4, 0));
+            // Sets out Black Kings
             board[4, 7] = new King("B", new Position(4, 7));
-           // Queens
+            // Sets out White Queens
             board[3, 0] = new Queen("W", new Position(3, 0));
+            // Sets out Black Queens
             board[3, 7] = new Queen("B", new Position(3, 7));
-            //Tower
+            // Sets out White Tower
             board[0, 0] = new Tower("W", new Position(0, 0));
             board[7, 0] = new Tower("W", new Position(7, 0));
+            // Sets out Black Tower
             board[0, 7] = new Tower("B", new Position(0, 7));
             board[7, 7] = new Tower("B", new Position(7, 7));
-            // Crusader
+            // Sets out White Crusader
             board[1, 0] = new Crusader("W", new Position(1,0));
             board[6, 0] = new Crusader("W", new Position(6, 0));
+            // Sets out Black Crusader
             board[1, 7] = new Crusader("B", new Position(1, 7));
             board[6, 7] = new Crusader("B", new Position(6, 7));
-            // Bishop
+            // Sets out white Bishop
             board[2, 0] = new Bishop("W", new Position(2, 0));
             board[5, 0] = new Bishop("W", new Position(5, 0));
+            // Sets out Black Bishop
             board[2, 7] = new Bishop("B", new Position(2, 7));
             board[5, 7] = new Bishop("B", new Position(5, 7));
            
             
         }
-       //public void Movits()
-       // {
-       //     board[1, 6].position.X = board[1, 6].position.X + 1;
-       // }
+        //public void Movits()
+        //{
+            
+        //}
+
+        // Prints out board to screen with a 2d Array
         public void PrintBoard()
         {
             Console.WriteLine("   AlphaChess v.1.33.7 | Copyright 2014 c The Game Geeks at EC");
