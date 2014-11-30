@@ -27,7 +27,7 @@ namespace _2d_array
                     Console.Clear();
 
                     break;
-                //EXIT
+                //EXIT you can not exit =P
                 case ConsoleKey.X:
                     Console.Clear();
                     Console.WriteLine("You can't Exit the program with the x button, there is no escape!");

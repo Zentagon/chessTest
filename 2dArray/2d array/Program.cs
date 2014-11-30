@@ -20,11 +20,12 @@ namespace _2d_array
             //Player P1 = new Player("White");
             //Player P2 = new Player("Black");
             //var turn = P1; // P1 börjar 
+            Move Moves = new Move(new Position());
             ChessBoard chessBoard = new ChessBoard();
             chessBoard.start();
-           
+            Moves.PawnMove();
             
-            //chessBoard.Movits();
+            
            
 
             //SetupBlackSide blackside = new SetupBlackSide();
