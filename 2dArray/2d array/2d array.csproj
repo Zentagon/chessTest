@@ -56,8 +56,6 @@
     <Compile Include="ChessPieces\Queen.cs" />
     <Compile Include="ChessPieces\Tower.cs" />
     <Compile Include="används ej - Player.cs" />
-    <Compile Include="SetupBlackSide.cs" />
-    <Compile Include="SetupWhiteSide.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

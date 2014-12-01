@@ -40,13 +40,13 @@ namespace _2d_array
             board[5, 1] = new Pawn("W", new Position(5, 1));
             board[6, 1] = new Pawn("W", new Position(6, 1));
             board[7, 1] = new Pawn("W", new Position(7, 1));
-            // Sets out White Kings
+            // Sets out White King
             board[4, 0] = new King("W", new Position(4, 0));
             // Sets out Black Kings
             board[4, 7] = new King("B", new Position(4, 7));
-            // Sets out White Queens
+            // Sets out White Queen
             board[3, 0] = new Queen("W", new Position(3, 0));
-            // Sets out Black Queens
+            // Sets out Black Queen
             board[3, 7] = new Queen("B", new Position(3, 7));
             // Sets out White Tower
             board[0, 0] = new Tower("W", new Position(0, 0));
